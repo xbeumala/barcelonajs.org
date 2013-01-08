@@ -39,11 +39,11 @@ _____________________________________________________
 /* 7.FORMS (See css/mylibs/forms.css) */
 /* 8.BANNER */
 .logo {
-  height: 135px;
-  width: 195px;
+  height: 255px;
+  width: 255px;
   margin: 0 auto 10px auto;
-  background: url(../img/logo-x2.png) no-repeat top center;
-  background-size: 195px 135px;
+  background: url(../img/barcelona-js.png) no-repeat top center;
+  background-size: 255px 255px;
 }
 /* 9.NAVIGATION */
 /* 10.CONTENT */

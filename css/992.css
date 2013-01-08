@@ -40,10 +40,10 @@ _____________________________________________________
 /* 8.BANNER */
 
 .logo {
-  width: 260px;
-  height: 176px;
+  width: 255px;
+  height: 255px;
   float: left;
-  background: url(../img/logo.png) no-repeat top left;
+  background: url(../img/barcelona-js.png) no-repeat top left;
 }
 
 .ug-info {

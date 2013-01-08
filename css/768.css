@@ -74,10 +74,10 @@ a.button:active {
 /* 8.BANNER */
 
 .logo {
-  width: 260px;
-  height: 176px;
+  width: 255px;
+  height: 255px;
   float: left;
-  background: url(../img/logo.png) no-repeat top left;
+  background: url(../img/barcelona-js.png) no-repeat top left;
 }
 
 .ug-info {
@@ -176,34 +176,6 @@ nav li a.active {
   background: rgb(30,160,206);
   color: #fff;
   text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
-}
-
-/* 10.CONTENT */
-
-/* --- Reject.JS Final Header --- */
-
-.rejectjs header hgroup {
-  width: 90%;
-  margin: 0 auto;
-  padding: 20px 0;
-  text-align: left;
-}
-
-.rejectjs header h2 {
-  margin-top: 35px;
-}
-
-.reject-logo {
-  height: 245px;
-  width: 247px;
-  margin: 0 20px;
-  background: url(../img/logo-rejectjs.png) no-repeat top left;
-  display: block;
-  float: left;
-}
-
-.rejectjs h1 img {
-  margin: 20px auto 0;
 }
 
 /* --- END Final Header --- */
