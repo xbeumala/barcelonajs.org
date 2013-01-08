@@ -1,5 +1,7 @@
-BerlinJS.org website
+BarcelonaJS.org website
 ====================
+
+forked from BerlinJS.
 
 * Website: http://berlinjs.org
 * Twitter: http://twitter.com/berlinjs
