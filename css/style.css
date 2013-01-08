@@ -363,10 +363,10 @@ h1 span {
 }
 
 .logo {
-  height: 135px;
-  width: 260px;
+  height: 255px;
+  width: 255px;
   margin: 0 auto 10px auto;
-  background: url(../img/logo-s.png) no-repeat top center;
+  background: url(../img/barcelona-js.png) no-repeat top center;
 }
 
 .ug-info {
