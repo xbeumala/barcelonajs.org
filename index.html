@@ -2,12 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>BarcelonaJS &mdash; JavaScript. Beach style.</title>
-    <meta name="description" content="Barcelona.JS is a usergroup focused on Javascript and related
+    <title>BarcelonaJS &mdash; JavaScript. Barcelona Style.</title>
+    <meta name="description" content="Barcelona.JS is a usergroup focused on JavaScript and related
      topics.">
-    <meta name="keywords" content="Javascript, Usergroup, Barcelona, Programming, JS">
+    <meta name="keywords" content="JavaScript, Usergroup, Barcelona, Programming, JS">
     <meta name="author" content="Barcelona.JS">
-    <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
+    <meta name="viewport" content="width=device-width, target-densitydpi=160, initial-scale=1">
     <!-- disable cache completely for now -->
     <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="cache-control" content="no-cache" />
@@ -16,16 +16,8 @@
     <meta http-equiv="pragma" content="no-cache" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" media="screen" href="css/style.css?v=1">
-    <link rel="stylesheet" media="print" href="css/print.css?v=1">
 
-    <link rel="stylesheet" media="only screen and (min-width: 480px)" href="css/480.css?v=1">
-    <link rel="stylesheet" media="only screen and (min-width: 768px)" href="css/768.css?v=1">
-    <link rel="stylesheet" media="only screen and (min-width: 992px)" href="css/992.css?v=1">
-    <link rel="stylesheet" media="only screen and (min-width: 1382px)" href="css/1382.css?v=1">
-
-    <link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)" href="css/2x.css?v=1">
-
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <link rel="apple-touch-icon-precomposed" href="http://barcelonajs.org/apple-touch-icon-precomposed.png"/>
     <link rel="apple-touch-icon" sizes="72x72" href="http://barcelonajs.org/apple-touch-icon-72x72.png"/>
@@ -36,87 +28,121 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   </head>
   <body>
-    <header role="banner" class="clearfix">
+    <header id="banner" role="banner">
       <hgroup class="clearfix">
-      <h1 class="logo" title="BARCELONA.JS"></h1>
-      <h3 class="ug-info triangle-border left">
-        Barcelona.JS is a usergroup focused on Javascript and related topics.
-      </h3>
+        <h1 class="logo" title="BARCELONA.JS"></h1>
+        <h3 class="ug-info triangle-border left">
+          Barcelona.JS is a usergroup focused on JavaScript and related topics. We meet regularly on the last Wednesday each month at 7.30pm at <a href="http://www.mob-barcelona.com" alt="Makers of Barcelona">MOB</a>, C/ Bailen 11 in Barcelona.
+        </h3>
       </hgroup>
     </header>
-    <div role="main" class="content clearfix">
-      <article class="clearfix">
-        <header class="clearfix center">
-          <h1>Starting soon!</h1>
+    <div role="main" class="content">
+      <article>
+        <header class="center announcement">
+          <h1>Next meetup on January 30<sup>th</sup></h1>
         </header>
-        <section class="clearfix">
-        <!-- TALKS -->
-          <div class="three-cols clearfix">
-            <div class="speaker empty">
-              <h3>Free slot</h3>
-              <h5>This slot could be yours!<br/>Submit your talk now.</h5>
+        <section id="talks">
+          <hgroup class="center clearfix">
+            <div class="talk">
+              <h3>node-fs</h3>
+              <h5><a href="http://twitter.com/bpedro">Bruno Pedro (@bpedro)</a></h5>
               <p>
-                You did some crazy stuff with Javascript? You want to show it
-                to the community?
-              </p>
-              <p>
-                Drop us a line on your topic on <a href="http://twitter.com/bcnjs" title="BarcelonaJS on Twitter">
-                Twitter</a> or to our <a href="http://groups.google.com/group/barcelonajs" title="BarcelonaJS Mailinglist">Mailinglist</a>.
+                A short talk about node-fs. node-fs is an extension to the original nodejs fs library, offering new functionalities.
               </p>
             </div>
-            <div class="speaker empty">
-              <h3>Free slot</h3>
-              <h5>This slot could be yours!<br/>Submit your talk now.</h5>
+            <div class="talk">
+              <h3>Twitter, Couchbase and amCharts</h3>
+              <h5><a href="http://twitter.com/hardlifeofapo">Pablo Casado (@hardlifeofapo)</a></h5>
               <p>
-                You did some crazy stuff with Javascript? You want to show it
-                to the community?
-              </p>
-              <p>
-                Drop us a line on your topic on <a href="http://twitter.com/bcnjs" title="BarcelonaJS on Twitter">
-                Twitter</a> or to our <a href="http://groups.google.com/group/barcelonajs" title="BarcelonaJS Mailinglist">Mailinglist</a>.
+                How to start with node.js. An <a href="https://github.com/hardlifeofapo/ntwitter-node-couchbase">example</a> for teaching purposes at UPC showing off basic node.js fundamentals with streaming twitter messages to Couchbase and visualise the data via socket.io in amCharts.
               </p>
             </div>
-            <div class="speaker empty">
-              <h3>Free slot</h3>
-              <h5>This slot could be yours!<br/>Submit your talk now.</h5>
+            <div class="talk">
+              <h3>Hybrid web application architecture with Backbone, Rails and Node.js</h3>
+              <h5><a href="http://twitter.com/hardlifeofapo">Jordi Romero (@jordiromero)</a></h5>
               <p>
-                You did some crazy stuff with Javascript? You want to show it
-                to the community?
-              </p>
-              <p>
-                Drop us a line on your topic on <a href="http://twitter.com/bcnjs" title="BarcelonaJS on Twitter">
-                Twitter</a> or to our <a href="http://groups.google.com/group/barcelonajs" title="BarcelonaJS Mailinglist">Mailinglist</a>.
+                Sometimes Rails is not enough, and Backbone can be used to delegate some of the logic to the client, consuming a REST API. In this talk Jordi will go through what it takes to progressively migrate from a server-side standard Rails app to a hybrid solution that leverages the best of both worlds.
               </p>
             </div>
-          </div>
+          </hgroup>
         </section>
       </article>
     </div>
-    <footer class="clearfix three-cols">
-      <div>
-        <h5>Get in touch</h5>
-        <ul>
-          <li>
-            Follow Barcelona.JS on <a href="http://twitter.com/bcnjs" title="Follow us on Twitter">Twitter</a>
-          </li>
-          <li>
-            Watch the code on <a href="https://github.com/barcelona-js/barcelonajs.org" title="Barcelona.JS code on Github">Github</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h5>The team</h5>
-        <p>
-          Barcelona.JS is organized by <a href="http://www.twitter.com/PatrickHeneise" title="Follow Patrick on
-          Twitter">Patrick Heneise</a>.
-        </p>
-      </div>
-      <div>
-        <h5>Supporters</h5>
-        <p>
-          Want to sponsor our meetups? Contact <a href="mailto:bcnjavascript@gmail.com">bcnjavascript@gmail.com</a>
-        </p>
-      </div>
+    <div role="additional" id="additional">
+      <article>
+        <section id="information">
+          <hgroup class="clearfix center">
+            <div class="infobox">
+              <h3>beer.js</h3>
+              <p>
+                At the George Payne, Plaça Urquinaona, 5 after the meetup.<br />
+                <img src="img/beerjs.png" alt="beer.js" />
+              </p>
+            </div>
+            <div class="infobox">
+              <h3>Twitter</h3>
+              <h5><a class="twitter-timeline" data-dnt=true href="https://twitter.com/bcnJS" data-widget-id="292666017702879232">Tweets by @bcnJS</a></h5>
+              <p>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              </p>
+            </div>
+            <div class="infobox">
+              <h3>Where to find us?</h3>
+              <p>
+                <img src="http://a.tiles.mapbox.com/v3/bcnjs.map-rl302ocs/2.177099999999998,41.39159999999996,16/220x220.png" alt="mapbox" />
+              </p>
+            </div>
+          </hgroup>
+        </section>
+      </article>
+    </div>
+    <div role="sponsors" id="sponsors">
+      <article>
+        <header class="center announcement">
+          <h2>Sponsored by</h2>
+        </header>
+        <section id="sponsorships">
+          <hgroup class="center clearfix">
+            <div class="sponsor">
+              <a href="http://www.mob-barcelona.com"><img src="img/sponsors/mob.png" alt="Makers of Barcelona"></a>
+            </div>
+            <div class="sponsor">
+              <p>Want to sponsor our meetups? Contact <a href="mailto:bcnjavascript@gmail.com">bcnjavascript@gmail.com</a></p>
+            </div>
+            <div class="sponsor">
+              <p>Want to sponsor our meetups? Contact <a href="mailto:bcnjavascript@gmail.com">bcnjavascript@gmail.com</a></p>
+            </div>
+          </hgroup>
+        </section>
+      </article>
+    </div>
+    <footer>
+      <hgroup class="center clearfix">
+        <div class="footerbox">
+          <h5>Get in touch</h5>
+          <ul>
+            <li>
+              Follow Barcelona.JS on <a href="http://twitter.com/bcnjs" title="Follow us on Twitter">Twitter</a>
+            </li>
+            <li>
+              Hosted on GitHub Pages. See the code on <a href="https://github.com/barcelona-js/barcelonajs.org" title="Barcelona.JS code on Github">Github</a>.
+            </li>
+          </ul>
+        </div>
+        <div class="footerbox">
+          <h5>The team</h5>
+          <p>
+            Barcelona.JS is organized by <a href="http://www.twitter.com/PatrickHeneise" title="Follow Patrick on
+            Twitter">Patrick Heneise</a>. Want to help? Contact us!
+          </p>
+        </div>
+        <div class="footerbox">
+          <h5>Supporters</h5>
+          <p>
+            Want to sponsor our meetups? Contact <a href="mailto:bcnjavascript@gmail.com">bcnjavascript@gmail.com</a>
+          </p>
+        </div>
+      </hgroup>
     </footer>
     <script type="text/javascript">
       var _gaq = _gaq || [];
