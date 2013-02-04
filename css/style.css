@@ -196,10 +196,6 @@ body {-webkit-tap-highlight-color: rgb(255,255,158);}
   margin-top: 0;
 }
 
-hgroup {
-  width: 960px;
-}
-
 .infobox, .sponsor, .talk, .footerbox {
   width: 276px;
   float: left;
@@ -249,10 +245,6 @@ hgroup {
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 0;
-  }
-
-  hgroup {
-    width: 768px;
   }
 
   .infobox, .sponsor, .talk, .footerbox {
@@ -313,10 +305,6 @@ hgroup {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 0;
-  }
-
-  hgroup {
-    width: 320px;
   }
 
   .infobox, .sponsor, .talk, .footerbox {
@@ -381,10 +369,6 @@ hgroup {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 0;
-  }
-
-  hgroup {
-    width: 480px;
   }
 
   .infobox, .sponsor, .talk, .footerbox {
