@@ -61,8 +61,10 @@ a img {border: 0;}
 }
 
 h5 {
-  font-size: 16px;
-  line-height: 48px;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .big, h4 {
