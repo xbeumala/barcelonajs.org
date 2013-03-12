@@ -31,12 +31,6 @@ a img {border: 0;}
 /*  Typography presets
   ------------------  */
 
-.gigantic {
-  font-size: 110px;
-  line-height: 120px;
-  letter-spacing: -2px;
-}
-
 .huge, h1 {
   font-size: 42px;
   font-weight: 700;
@@ -75,7 +69,7 @@ h5 {
 body {
   -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
   -ms-text-size-adjust: 100%;
-  font: 16px/24px 'Montserrat', Arial, sans-serif;
+  font: 12px/18px 'Montserrat', Arial, sans-serif;
   padding : 0;
   color : #223035;
   background-color : rgb(248, 248, 248);
@@ -131,16 +125,18 @@ img::selection    {background: transparent;}
 img::-moz-selection {background: transparent;}
 body {-webkit-tap-highlight-color: rgb(255,255,158);}
 
-#banner { background-color: rgb(232, 214, 0); }
+#banner { 
+  background-color: rgb(232, 214, 0); 
+}
+
 #information { 
   margin-top: 25px;
-  padding-top: 25px; 
-  padding-bottom: 25px; 
-  background-color: white; 
 }
+
 .footerbox { color: white; }
 .footerbox a { color: white; }
 .content { padding-bottom: 25px;}
+
 .infobox {
   background-color: white;
   border: 1px solid white;
@@ -193,12 +189,12 @@ body {-webkit-tap-highlight-color: rgb(255,255,158);}
 }
 
 .announcement {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
   margin-top: 0;
 }
 
-.infobox, .sponsor, .talk, .footerbox {
+.infobox, .talk, .footerbox {
   width: 276px;
   float: left;
   margin: 10px;
@@ -214,7 +210,7 @@ body {-webkit-tap-highlight-color: rgb(255,255,158);}
 }
 
 .talk {
-  min-height: 250px;
+  min-height: 200px;
 }
 
 .logo {
@@ -224,6 +220,47 @@ body {-webkit-tap-highlight-color: rgb(255,255,158);}
 
 .ug-info {
   width: 810px;
+}
+
+.sponsor {
+  width: 250px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#estrella-logo {
+  display: block;
+  background: url('../img/sponsors/estrella.png') no-repeat center;
+  width: 153px;
+  height: 153px;
+  margin: 0 auto;
+}
+
+#estrella-logo span {
+  display: none;
+}
+
+#socialpoint-logo {
+  display: block;
+  background: url('../img/sponsors/socialpoint.png') no-repeat center;
+  width: 243px;
+  height: 49px;
+  margin: 0 auto;
+}
+
+#socialpoint-logo span {
+  display: none;
+}
+
+#sponsors {
+  background-color: white; 
+  width: 100%;
+}
+
+#sponsorships {
+  width: 580px;
+  margin: 0 auto;
 }
 
 /*    Tablet Layout: 768px.   */
@@ -244,8 +281,8 @@ body {-webkit-tap-highlight-color: rgb(255,255,158);}
   }
 
   .announcement {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     margin-top: 0;
   }
 
@@ -305,7 +342,7 @@ body {-webkit-tap-highlight-color: rgb(255,255,158);}
 
   .announcement {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     margin-top: 0;
   }
 
@@ -369,7 +406,7 @@ body {-webkit-tap-highlight-color: rgb(255,255,158);}
 
   .announcement {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     margin-top: 0;
   }
 
