@@ -133,6 +133,10 @@ body {-webkit-tap-highlight-color: rgb(255,255,158);}
   margin-top: 25px;
 }
 
+.info-link {
+    display: block;
+}
+
 .footerbox { color: white; }
 .footerbox a { color: white; }
 .content { padding-bottom: 25px;}
