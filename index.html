@@ -37,21 +37,21 @@
       <header class="center announcement">
         <h1>{{meetup.next.title}}</h1>
       </header>
-      <section id="talks" class="clearfix" ng-repeat="slot in meetup.next.slots">
-        <article class="talk empty">
-          <hgroup>
-            <h3>{{slot.header}}</h3>
-            <h5>{{slot.subtitle}}</h5>
-          </hgroup>
-          <p>
-            {{slot.body}}
-          </p>
-          <p>
-            Drop us a line on your topic on <a href="http://twitter.com/bcnjs" title="BarcelonaJS on Twitter">
-            Twitter</a> or to our <a href="http://groups.google.com/group/barcelonajs" title="BarcelonaJS Mailinglist">Mailinglist</a>.
-          </p>
-        </article>
-      </section>
+          <section id="talks" class="clearfix">
+              <article class="talk empty" ng-repeat="slot in meetup.next.slots">
+                  <hgroup>
+                      <h3>{{slot.header}}</h3>
+                      <h5>{{slot.subtitle}}</h5>
+                  </hgroup>
+                  <p>
+                      {{slot.body}}
+                  </p>
+                  <p>
+                      Drop us a line on your topic on <a href="http://twitter.com/bcnjs" title="BarcelonaJS on Twitter">
+                      Twitter</a> or to our <a href="http://groups.google.com/group/barcelonajs" title="BarcelonaJS Mailinglist">Mailinglist</a>.
+                  </p>
+              </article>
+          </section>
       <div id="sponsors">
         <header class="center announcement">
           <h2>Sponsors</h2>
