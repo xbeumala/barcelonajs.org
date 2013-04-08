@@ -1,0 +1,171 @@
+{
+    "what": "Barcelona.JS is a usergroup focused on JavaScript and related topics. ",
+    "when": "We meet regularly on the first Thursday each month at 7.45pm",
+    "where": {
+        "link": {
+            "href": "http://www.mob-barcelona.com/",
+            "text": "MOB"
+        },
+        "text": "C/ Bailen 11 in Barcelona."
+    },
+    "next": {
+        "title": "Next meetup on May 2nd",
+        "slots": [{
+            "header": "Free slot",
+            "subtitle": "This slot could be yours! Submit your talk now.",
+            "twitter": "http://twitter.com/bcnjs",
+            "mail": "http://groups.google.com/group/barcelonajs",
+            "body": "You did some crazy stuff with Javascript? You want to show it to the community?",
+            "links": [{
+                "text": "Drop us a line on your topic on",
+                "link": {
+                    "href": "http://twitter.com/bcnjs",
+                    "text": "Twitter"
+                }
+            }, {
+                "text": "or to our",
+                "link": {
+                    "href": "http://groups.google.com/group/barcelonajs",
+                    "text": "Mailinglist"
+                }
+            }]
+        }, {
+            "header": "Free slot",
+            "subtitle": "This slot could be yours! Submit your talk now.",
+            "twitter": "http://twitter.com/bcnjs",
+            "mail": "http://groups.google.com/group/barcelonajs",
+            "body": "You did some crazy stuff with Javascript? You want to show it to the community?",
+            "links": [{
+                "text": "Drop us a line on your topic on",
+                "link": {
+                    "href": "http://twitter.com/bcnjs",
+                    "text": "Twitter"
+                }
+            }, {
+                "text": "or to our",
+                "link": {
+                    "href": "http://groups.google.com/group/barcelonajs",
+                    "text": "Mailinglist"
+                }
+            }]
+        }, {
+            "header": "Free slot",
+            "subtitle": "This slot could be yours! Submit your talk now.",
+            "twitter": "http://twitter.com/bcnjs",
+            "mail": "http://groups.google.com/group/barcelonajs",
+            "body": "You did some crazy stuff with Javascript? You want to show it to the community?",
+            "links": [{
+                "text": "Drop us a line on your topic on",
+                "link": {
+                    "href": "http://twitter.com/bcnjs",
+                    "text": "Twitter"
+                }
+            }, {
+                "text": "or to our",
+                "link": {
+                    "href": "http://groups.google.com/group/barcelonajs",
+                    "text": "Mailinglist"
+                }
+            }]
+        }   ]
+    },
+    "sponsors": [{
+        "name": "socialpoint",
+        "title": "Social Point",
+        "link": "http://www.socialpoint.es",
+        "about": "Based in Barcelona, Social Point makes the coolest social games for Facebook and mobile devices.",
+        "tag": {
+            "what": "Become part of our talented team - ",
+            "link": {
+                "href": "http://www.socialpoint.es/jobs/",
+                "text": "We are hiring!"
+            }
+        }
+    }, {
+        "name": "estrella",
+        "title": "Estrella Damm",
+        "link": "http://www.estrelladamm.com/",
+        "about": "",
+        "tag": {
+            "what": "",
+            "link": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }],
+    "infos": [{
+        "title": "beer.js",
+        "info": "At the Gran Foc, C/ Roger de Llúria, 23. After the meetup.",
+        "img": "img/beerjs.png",
+        "links": []
+    }, {
+        "title": "more.js",
+        "info": "",
+        "img": "",
+        "links": [{
+            "text": "Previous talks",
+            "href": "/history.html"
+        }, {
+            "text": "Mailing list",
+            "href": "http://groups.google.com/group/barcelonajs"
+        }, {
+            "text": "Twitter",
+            "href": "http://twitter.com/bcnjs"
+        }]
+    }, {
+        "title": "Where to find us?",
+        "info": "",
+        "img": "http://a.tiles.mapbox.com/v3/bcnjs.map-rl302ocs/2.177099999999998,41.39159999999996,16/180x180.png",
+        "links": [{
+            "text": "To be sure you don’t miss out, subscribe to our calendar!",
+            "address": "http://barcelonajs.org/BarcelonaJS.ics"
+        }]
+    }],
+    "footer": [{
+        "title": "Get in touch",
+        "links": [{
+            "text": "Follow Barcelona.JS on",
+            "link": {
+                "text": "Twitter",
+                "href": "http://twitter.com/bcnjs",
+                "title": "Follow us on Twitter"
+            }
+        }, {
+            "text": "Hosted on GitHub Pages. See the code on",
+            "link": {
+                "text": "Github",
+                "href": "https://github.com/barcelona-js/barcelonajs.org",
+                "title": "Barcelona.JS code on Github"
+            }
+        }]
+    }, {
+        "title": "The team",
+        "links": [{
+            "text": "Barcelona.JS is organized by",
+            "link": {
+                "text": "Patrick Heneise",
+                "href": "http://www.twitter.com/PatrickHeneise",
+                "title": "Follow Patrick on Twitter"
+            }
+        }, {
+            "text": "and",
+            "link": {
+                "text": "Jean Carlos Meninno",
+                "href": "http://www.twitter.com/eth0lo",
+                "title": "Follow Jean Carlos on Twitter"
+            }
+        }]
+    }, {
+        "title": "Supporters",
+        "links": [{
+            "text": "Our meetups are hosted by",
+            "link": {
+                "href": "http://www.mob-barcelona.com/",
+                "text": "MOB",
+                "title": ""
+            }
+        }]
+
+    }]
+}
